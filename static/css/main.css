@@ -1,0 +1,141 @@
+h1, p, body {
+    margin: 0;
+    padding: 0;
+}
+
+#background_image{
+    position:fixed;
+    z-index: -10;
+    width: 100%;
+    overflow: hidden;
+    max-height: 500px;
+}
+#background_image img{
+    width: 100%;
+    height: auto;
+    min-width: 700px;
+    position: fixed;
+    top:-100%; left:-100%; right: -100%; bottom:-100%;
+    overflow: hidden;
+    margin: auto;
+}
+#background_image .dark_overlay {
+
+}
+
+
+#navbar{
+    height: 80px;
+    width: 100%;
+    background-color: #2e2e2e;
+    margin: 0;
+    padding: 0;
+    border-bottom: 1px solid #969696;
+    position:relative;
+
+}
+
+.frame_body {
+    max-width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid blue;
+    height: auto;
+    min-height: 400px;
+}
+
+#intro_text{
+    position: relative;
+    top: 130px;
+    z-index: 50;
+    margin: auto;
+    max-width: 500px;
+    color: white;
+    padding: 0px 30px 5px 30px;
+}
+
+#intro_text h1{
+    color: #02adb4;
+    font-size: 3em;
+}
+
+#img_main {
+    min-width: 600px;
+    overflow: auto;
+    max-width: 100%;
+    max-height: 500px;
+
+}
+
+.frame_1 {
+    position: relative;
+    min-height: 300px;
+    background-color: #fbffff;
+    width: 100%;
+    color: #000000;
+    border-top: 1px solid #949494;
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#262224', endColorstr='#1e1d1d',GradientType=1 );
+}
+
+.card{
+    height: 350px;
+    width: 250px;
+    background-color: #000000;
+    color: black;
+    border: 1px solid #aeaeae;
+    margin-bottom: 80px;
+    display: inline-block;
+
+}
+
+.cards_title{
+    background-color: #ff4d26;
+    height: 40px;
+    color: #eff2ff;
+    text-align: center;
+}
+.cards_tutle h1{
+
+}
+
+
+.cards_img img{
+     width: 100%;
+     height: auto;
+     min-height: 100%;
+     min-width: 100%;
+     margin: 0px;
+     padding: 0px;
+    position: relative;
+    z-index: -1;
+}
+
+.center_text{
+    text-align: center;
+
+}
+
+.center_img{
+    display: block;
+    margin: auto;
+}
+
+.sector_title{
+    margin: 20px;
+}
+
+/*****************
+*****SHADOWS******
+******************/
+.dropshadow_spread{
+    -webkit-box-shadow: 0px 0px 9px 4px rgba(0,0,0,0.5);
+    -moz-box-shadow: 0px 0px 9px 4px rgba(0,0,0,0.5);
+    box-shadow: 0px 0px 9px 4px rgba(0,0,0,0.5);
+}
+
+.border_radius_all {
+    border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+    border: 0px solid #000000;
+}
